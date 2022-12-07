@@ -7,3 +7,9 @@ create table if not exists cidades(
     foreign key (estado_id) references estados (id)
 
 );
+
+--create table if not exists teste(
+    --id int unsigned not null auto_increment primary key );s
+    
+
+--drop table if  exists teste;

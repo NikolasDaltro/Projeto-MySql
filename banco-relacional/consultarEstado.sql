@@ -5,4 +5,7 @@ where regiao = 'Sul'
 
 select nome, regiao, populacao from estados
 where populacao >= 10
-order by populacao desc
+order by populacao desc;
+
+SET @count = 0;
+UPDATE `tabela` SET `tabela`.`id` = @count:= @count + 1;
